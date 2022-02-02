@@ -1,4 +1,4 @@
-algoritmo "atribuicoes"
+algoritmo "MeuNome"
 var
    Nome: caractere
 inicio
