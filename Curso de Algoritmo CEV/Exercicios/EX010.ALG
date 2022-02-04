@@ -1,10 +1,15 @@
-algoritmo "doletas"
+algoritmo "Area"
 var
-   rs, us: real
+   alt, lar, area, tinta: real
+
 inicio
-      escreva("Quantos reais você tem: ")
-      leia(rs)
-      us <- rs / 3.45
-      escreva("Voce pode comprar US$", us:5:2)
+      escreva("Qual a altura da parede: ")
+      leia(alt)
+      escreva("Qual a largura da parede: ")
+      leia(lar)
+      area <- alt * lar
+      tinta <- area / 2
+      escreval("A area é igual a:", area,"m^2")
+      escreval("Sera preciso", tinta, " litros de tinta para pintar a parede.")
 
 fimalgoritmo
